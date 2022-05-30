@@ -1,6 +1,72 @@
-h1{
+/*Manejando pseudselectors*/
+:root
+{
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --azulmarino: #44578d;
+    --celeste: #87c9d6;
+    --turquesa:#8dbcae;
+    --beige: #caaa8d;
+    --cafe: #432229;
+}
+
+
+/*Manejado REM*/
+/*Adaptar a todo el html y al body*/
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;/*1 rem = 10px*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo span.yasuni{
     text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;
 }
-span{
-    font-size: 20px;
+
+.titulo{ /*Aplicando una clase*/
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
+.titulo span{ /*aplica el span al h1 y no a todos los span*/
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+
+h2.titulo{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h2.about{
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3.flora{
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;  
+}
+
+h3.fauna{
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3.turismo{
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2.contactos{
+    font-size: 3.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
