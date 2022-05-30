@@ -70,3 +70,37 @@ h2.contactos{
     font-family: 'Kaushan Script', cursive;
 }
 
+/*Centrado de navegacion principal*/
+/*Se define un contenedor*/
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.div-nav-menu{/*para el color*/
+    background-color: var(--turquesa);
+}
+
+/*Ancho del menu - Enfoque de modulos*/
+.nav-menu{/*el padre*/
+    /*padding: 1rem 1rem 1rem 1rem;*/
+    padding: 1rem;
+    display: flex;/*centrar el menu*/
+    flex-direction: row; /*por defecto son columnas*/
+    justify-content: space-between;
+}
+
+.nav-menu a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*Eventos de css*/
+
+.nav-menu a:hover{
+    background-color: var(--beige);
+    padding: 1rem;
+
+}
+
